@@ -3,14 +3,14 @@ public class Solution {
 
         if(s.Length == 1)
           return 1;
-        int Counter = 0;
         s =s.TrimEnd();
-        for(int i = s.Length - 1 ; i >= 0 ; i--){
+       
+        int i = 0;
+        for( i = s.Length - 1 ; i >= 0 ; i--){
            
            if(s[i] == ' ')
-             return Counter;
-           Counter++;
+             return (s.Length - i) -1;
         }
-        return Counter;
+        return (s.Length - i) - 1;
     }
 }
