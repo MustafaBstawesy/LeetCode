@@ -1,3 +1,3 @@
 # LeetCode
-Repo for problem solving C#
+Repo for problem solving 
 
